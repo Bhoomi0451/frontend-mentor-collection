@@ -1,0 +1,74 @@
+body{
+    font-family: 'Inter', sans-serif;
+    display:flex;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%)
+
+}
+     
+.card{
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+    width:90%;
+    max-width: 350px;
+    padding: 24px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items:center;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 88px;
+    width:88px;
+    display: block;
+    justify-content: center;
+}
+
+.bio{
+    color:hsl(0,0%,100%);
+    text-align:center;
+    font-size:14px;
+}
+
+h1{
+    color: aliceblue;
+    margin:0;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    margin-top:-5px;
+}
+.social-links{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.social-links a{
+    text-decoration:none;
+    color:white;
+    background-color:hsl(0, 0%, 20%);
+    text-align:center;
+    padding:12px;
+    border-radius:8px;
+    font-weight:700;
+}
+
+.social-links a:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+}
+
+.attribution{
+   display:none;
+}
