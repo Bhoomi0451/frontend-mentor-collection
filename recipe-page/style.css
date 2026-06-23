@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Outfit',sans-serif;
+    background:hsl(30, 54%, 90%);
+    display:flex;
+    justify-content:center;
+    padding:120px 20px;
+}
+
+main{
+    width:100%;
+    max-width:736px;
+}
+
+.recipe-card{
+    background:hsl(0, 0%, 100%);
+    border-radius:24px;
+    padding:40px;
+}
+
+.recipe-card img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+}
+
+.content{
+    margin-top:40px;
+}
+
+h1{
+    font-family:'Young Serif',serif;
+    font-size:40px;
+    font-weight:400;
+    color:hsl(24, 5%, 18%);
+    margin-bottom:24px;
+    line-height:1;
+}
+
+.description{
+    color:hsl(30, 10%, 34%);
+    line-height:1.7;
+}
+
+.prep{
+    background:hsl(330, 100%, 98%);
+    padding:28px;
+    border-radius:12px;
+    margin-top:32px;
+}
+
+.prep h2{
+    font-family:'Outfit',sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:hsl(332, 51%, 32%);
+    margin-bottom:16px;
+}
+
+.prep ul{
+    padding-left:24px;
+}
+
+.prep li{
+    color:hsl(30, 10%, 34%);
+    margin-bottom:8px;
+}
+
+.ingredients,
+.instructions,
+.nutrition{
+    margin-top:32px;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2{
+    font-family:'Young Serif',serif;
+    font-size:28px;
+    font-weight:400;
+    color:hsl(14, 45%, 36%);
+    margin-bottom:20px;
+}
+
+.ingredients ul,
+.instructions ol{
+    padding-left:24px;
+}
+
+.ingredients li,
+.instructions li{
+    color:hsl(30, 10%, 34%);
+    line-height:1.8;
+    margin-bottom:8px;
+}
+
+.ingredients{
+    border-bottom:1px solid hsl(30, 18%, 87%);
+    padding-bottom:32px;
+}
+
+.instructions{
+    border-bottom:1px solid hsl(30, 18%, 87%);
+    padding-bottom:32px;
+}
+
+.instructions strong,
+.prep strong{
+    color:hsl(24, 5%, 18%);
+}
+
+.nutrition p{
+    color:hsl(30, 10%, 34%);
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    padding:14px 32px;
+    border-bottom:1px solid hsl(30, 18%, 87%);
+}
+
+td:first-child{
+    color:hsl(30, 10%, 34%);
+}
+
+td:last-child{
+    color:hsl(14, 45%, 36%);
+    font-weight:700;
+}
+
+.attribution{
+    display:none;
+}
+
+
+
+@media(max-width:768px){
+
+    body{
+        padding:0;
+    }
+
+    .recipe-card{
+        padding:0;
+        border-radius:0;
+    }
+
+    .recipe-card img{
+        border-radius:0;
+    }
+
+    .content{
+        padding:40px 32px;
+    }
+}
